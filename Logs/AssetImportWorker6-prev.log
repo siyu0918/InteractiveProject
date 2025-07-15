@@ -1,0 +1,289 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.33f1 (b2c853adf198) revision 11716691'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32461 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/cheng/HandTracking
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+64373
+Successfully changed project path to: C:/Users/cheng/HandTracking
+C:/Users/cheng/HandTracking
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28720] Host "[IP] 26.26.26.1 [Port] 0 [Flags] 2 [Guid] 1858526651 [EditorId] 1858526651 [Version] 1048832 [Id] WindowsEditor(7,比克大魔王) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28720] Host "[IP] 26.26.26.1 [Port] 0 [Flags] 2 [Guid] 1858526651 [EditorId] 1858526651 [Version] 1048832 [Id] WindowsEditor(7,比克大魔王) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 6.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.33f1 (b2c853adf198)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cheng/HandTracking/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009154 seconds.
+- Loaded All Assemblies, in  0.302 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 232 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.513 seconds
+Domain Reload Profiling: 813ms
+	BeginReloadAssembly (89ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (88ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (108ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (513ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (326ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.584 seconds
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.578 seconds
+Domain Reload Profiling: 1160ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (362ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (579ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (426ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 7.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (58.2 KB). Loaded Objects now: 3621.
+Memory consumption went from 206.7 MB to 206.6 MB.
+Total: 3.620800 ms (FindLiveObjects: 0.234800 ms CreateObjectMapping: 0.083200 ms MarkObjects: 3.179600 ms  DeleteObjects: 0.122100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ToggleLight.cs: 9e042735f9e5ac6703b236982b4c5f42 -> 
+  custom:scripting/monoscript/fileName/VG_GraspEditor.cs: 1e18fc9b48656144758bd4817cbe067a -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VG_EC_Leap.cs: 894da197a6b5d78872c91d5491367677 -> 
+  custom:scripting/monoscript/fileName/VG_XRI_Entries.cs: 854d204cdfdf77c074f877c2b30478b0 -> 
+  custom:scripting/monoscript/fileName/VG_EC_OVR.cs: 18f8bdec0324d78b69a69d5f34074178 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SimpleImpact.cs: 86fb711a3287211171ca3019744d5bf3 -> 
+  custom:scripting/monoscript/fileName/VG_Recorder.cs: b3a04e14f2e53600c7c359c58e1efad0 -> 
+  custom:scripting/monoscript/fileName/VG_Assemble.cs: 63a0cfc10b799e003d85c2f5de349c37 -> 
+  custom:scripting/monoscript/fileName/VG_EC_Manus.cs: e22d72aba6fdd0dc30f64de9016deb79 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/VG_Utility.cs: 7a65140fa5c069a5435ec871d1f7cff4 -> 
+  custom:scripting/monoscript/fileName/VG_HandStatusDebugger.cs: 96d816212265c4ed786ffddcea8d6dee -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/VG_EC_Steam.cs: 5bac5c6e8014b2e81b6d5cabd713151b -> 
+  custom:scripting/monoscript/fileName/VG_HintVisualizer.cs: 2ce86bb7e562736354e57e2c2d2e152f -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ManageContainerObject.cs: 3474fe779362ef3c3751ac744d9a3709 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/VG_InteractionEngineTests.cs: ccbc2270df79caae56b25d2b01b1e56c -> 
+  custom:scripting/monoscript/fileName/VG_RunTimeRegister.cs: e0cf28234555144eda222153207ee6b8 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ChangeSelectionWeight.cs: ae9b03154775aa63df30aa941cc9a3c2 -> 
+  custom:scripting/monoscript/fileName/VG_Highlighter.cs: 523fc587334d88232431f5124952dfab -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/VG_ObjectAnimator.cs: 41fe22f153f80ae16e759133670734cf -> 
+  custom:scripting/monoscript/fileName/VG_EC_Generic.cs: 62db95cf1751261d596fe4412d3f0cf8 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/SoundOnPushEvents.cs: 8f770092c0eb9f1044120154fc1eee16 -> 
+  custom:scripting/monoscript/fileName/VG_Build.cs: 76852263859c12eae4580f9c71512b4d -> 
+  custom:scripting/monoscript/fileName/AssembleArticulationBody.cs: 1b6899ae194e136926f25366772d690e -> 
+  custom:scripting/monoscript/fileName/RuntimeInputTesting.cs: 7229228adf59dfeee67d67ccd6589d5b -> 
+  custom:scripting/monoscript/fileName/VG_EC_Oculus.cs: 44e1d7d40b8958aa522fc0782a763416 -> 
+  custom:scripting/monoscript/fileName/VG_EC_Script.cs: 4b36a900efa5caf21f6ae8e8ebf67568 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/FixParentOnObjectGrasped.cs: 0c9ddafabe6a48c2b126a07bb51ae89f -> 
+  custom:scripting/monoscript/fileName/MyVirtualGrasp.cs: e5499c0904625f4d94e4c3d43e584882 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VG_BaseTests.cs: 5957927458aa32414bd2549d73cb54b3 -> 
+  custom:scripting/monoscript/fileName/VG_EC_UnityXRInteraction.cs: a05647613d5277314afecd448677f18b -> 
+  custom:scripting/monoscript/fileName/TestChangeObjectJointPlanar.cs: 9ce06e5ab9e772c77e4c3586f7c8f030 -> 
+  custom:scripting/monoscript/fileName/SoundOnGraspEvents.cs: 271c20d2157293aa61846d660fae6a6c -> 
+  custom:scripting/monoscript/fileName/VG_AnimationDriver.cs: a0abc1d21d4a6d94de42a08d2ab612b0 -> 
+  custom:scripting/monoscript/fileName/VG_Locomotion.cs: 9ff3799e56c49f352732400659cca89f -> 
+  custom:scripting/monoscript/fileName/VG_EC_UnityXR.cs: aa1ca8f58117589204852eb5f1d958e1 -> 
+  custom:scripting/monoscript/fileName/VG_HandVisualizer.cs: f1312dca29b513306b9e7ef2b301d319 -> 
+  custom:scripting/monoscript/fileName/VG_TestHelpers.cs: ad39f39a65b666246a4596b4070883a9 -> 
+  custom:scripting/monoscript/fileName/VG_EC_Mouse.cs: 6fcba31255e6c2e01b4934e5af22f389 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MetalImpact.cs: 9dbb071311a9f1fc0586ec2293701474 -> 
+  custom:scripting/monoscript/fileName/VG_EC_UnityXRHands.cs: 4fb2ad031354bb47c2a34f754212333d -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13920.169324 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/assemble_object.prefab
+  artifactKey: Guid(0b26eda409cfd9d45a66a758195905c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/assemble_object.prefab using Guid(0b26eda409cfd9d45a66a758195905c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'aac308daebfb40528ff308f3da768d62') in 0.111064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/screw_jumpgrasp_assemble.prefab
+  artifactKey: Guid(9f030452b0ec30c4ea7e137ed3630776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/screw_jumpgrasp_assemble.prefab using Guid(9f030452b0ec30c4ea7e137ed3630776) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b207bad688e8ae20e46a367f28110b25') in 0.035653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.786622 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/showerHead_assemble.prefab
+  artifactKey: Guid(88c799b7c26d12c478260c62254f00b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/showerHead_assemble.prefab using Guid(88c799b7c26d12c478260c62254f00b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b4a00301a7a36b8de1fc26040733f6a0') in 0.016964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000754 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/symmetric_assembles.prefab
+  artifactKey: Guid(29ad25dea6af14249a6e8ff885eca9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/symmetric_assembles.prefab using Guid(29ad25dea6af14249a6e8ff885eca9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a80a7732d2a7cf519b0c6a6d2d6699bf') in 0.009967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 158
+========================================================================
+Received Import Request.
+  Time since last request: 0.003217 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/wineglass_jumpgrasp.prefab
+  artifactKey: Guid(26552299dadb5b44b825a479494a9fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/wineglass_jumpgrasp.prefab using Guid(26552299dadb5b44b825a479494a9fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9340e6675214103e6afb04443e687825') in 0.008438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 8.116721 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/SeparateHandsSensorAndReplayAvatars.prefab
+  artifactKey: Guid(8a1b796008f4590449970c03437bb33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/SeparateHandsSensorAndReplayAvatars.prefab using Guid(8a1b796008f4590449970c03437bb33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'dbb434e903d1d2bfd1de7c66a8f28872') in 0.044768 seconds
+Number of updated asset objects reloaded before import = 5
+Number of asset objects unloaded after import = 438
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

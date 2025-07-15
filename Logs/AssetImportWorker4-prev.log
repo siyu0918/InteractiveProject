@@ -1,0 +1,2097 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.33f1 (b2c853adf198) revision 11716691'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32461 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/cheng/HandTracking
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+64373
+Successfully changed project path to: C:/Users/cheng/HandTracking
+C:/Users/cheng/HandTracking
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16004] Host "[IP] 26.26.26.1 [Port] 0 [Flags] 2 [Guid] 2654151228 [EditorId] 2654151228 [Version] 1048832 [Id] WindowsEditor(7,比克大魔王) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16004] Host "[IP] 26.26.26.1 [Port] 0 [Flags] 2 [Guid] 2654151228 [EditorId] 2654151228 [Version] 1048832 [Id] WindowsEditor(7,比克大魔王) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 8.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.33f1 (b2c853adf198)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cheng/HandTracking/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.7649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008669 seconds.
+- Loaded All Assemblies, in  0.348 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 211 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.480 seconds
+Domain Reload Profiling: 825ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (117ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (481ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (433ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (300ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.516 seconds
+Refreshing native plugins compatible for Editor in 3.12 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.450 seconds
+Domain Reload Profiling: 964ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (256ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (450ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (335ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3201 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (58.6 KB). Loaded Objects now: 3686.
+Memory consumption went from 207.8 MB to 207.8 MB.
+Total: 3.441500 ms (FindLiveObjects: 0.227300 ms CreateObjectMapping: 0.066400 ms MarkObjects: 3.035200 ms  DeleteObjects: 0.111300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13676.533607 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/FactoryEnvironment.prefab
+  artifactKey: Guid(d7dfb1fd8c1d38a47bc9490470d37aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/FactoryEnvironment.prefab using Guid(d7dfb1fd8c1d38a47bc9490470d37aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '423b4736cb8aa96a1853582ccbc6f4bf') in 0.077218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.290623 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/plate_container.prefab
+  artifactKey: Guid(5788b7c517094b346ad8dffd479e47f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/plate_container.prefab using Guid(5788b7c517094b346ad8dffd479e47f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ddbf747a5bb5dbeb4cc57a3a473a9e22') in 0.017101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.023161 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/radio_assemble.prefab
+  artifactKey: Guid(843e6c9affc91bf45b82359148ad013a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/radio_assemble.prefab using Guid(843e6c9affc91bf45b82359148ad013a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0a49d2f1e8cb943b6b825df43bcf80e6') in 0.018091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.024613 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/screw_jumpgrasp.prefab
+  artifactKey: Guid(99d0edc7731886b438574f18ebe9925c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/screw_jumpgrasp.prefab using Guid(99d0edc7731886b438574f18ebe9925c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '434c210d56c21a1fd1d7aa6597c75229') in 0.017810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.728140 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/screwdriver.prefab
+  artifactKey: Guid(6ca0d5211fc7945499c9fc95c78c7319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/screwdriver.prefab using Guid(6ca0d5211fc7945499c9fc95c78c7319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '792e142a25ffc4227879748354e5754a') in 0.020827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.025626 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/showerHead.prefab
+  artifactKey: Guid(bb7e71f77b326dc4c9912915da437da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/showerHead.prefab using Guid(bb7e71f77b326dc4c9912915da437da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '10ed38e15fe3d910f3cfa4cf855c935c') in 0.016293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.297326 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/showerHead_jumpgrasp.prefab
+  artifactKey: Guid(00506af752ffa41498b1b63b83b42ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/showerHead_jumpgrasp.prefab using Guid(00506af752ffa41498b1b63b83b42ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3d42d3fdb4242740f30f6d2e57391cc0') in 0.017254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.014546 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/symmetric_assemble_curvedbar.prefab
+  artifactKey: Guid(03023724fbfb9bf4db4b0272eb1dbe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/symmetric_assemble_curvedbar.prefab using Guid(03023724fbfb9bf4db4b0272eb1dbe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4c0e39bc36e4457b357fd315bf2ee6c6') in 0.015852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.034478 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/valve_assemble_articulationbody.prefab
+  artifactKey: Guid(674378d7d3425104eb78fa3dea16ae3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/valve_assemble_articulationbody.prefab using Guid(674378d7d3425104eb78fa3dea16ae3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a343be872c077a17851b91d925bfa24b') in 0.012837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.264924 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/wineglass_jumpgrasp.prefab
+  artifactKey: Guid(26552299dadb5b44b825a479494a9fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/wineglass_jumpgrasp.prefab using Guid(26552299dadb5b44b825a479494a9fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '29f8cd901197ff24af072eee13ddc655') in 0.019611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.021493 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/wrench_jumpgrasp.prefab
+  artifactKey: Guid(0cee5de410258cc4a82648d911f7eabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/wrench_jumpgrasp.prefab using Guid(0cee5de410258cc4a82648d911f7eabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0de634ddbd43e577c07c1a8bc48d3ada') in 0.014842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 5.832637 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Scripts/Gleechi.VirtualGrasp.Onboarding.asmdef
+  artifactKey: Guid(bb84e7824abfd8e4bafab206d073c530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Scripts/Gleechi.VirtualGrasp.Onboarding.asmdef using Guid(bb84e7824abfd8e4bafab206d073c530) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b99fff723a9909c8890e153e1fbb2e86') in 0.000499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.286361 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/SoundEffects/AU_VGSound_LightOff.wav
+  artifactKey: Guid(6be90f4b1138ceb4fa78596cf44b9998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/SoundEffects/AU_VGSound_LightOff.wav using Guid(6be90f4b1138ceb4fa78596cf44b9998) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fe4316e450ce1dfc1a00e97558bbeb85') in 0.034709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/SoundEffects/AU_VGSound_UnHinge.wav
+  artifactKey: Guid(3fec56ee4924f874b8615640b9f02a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/SoundEffects/AU_VGSound_UnHinge.wav using Guid(3fec56ee4924f874b8615640b9f02a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2e5c898a901201e69afe4de38bbd8f7d') in 0.015152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.484103 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Textures/T_apple.png
+  artifactKey: Guid(7d791f3ea91d49d4598753fefee584a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Textures/T_apple.png using Guid(7d791f3ea91d49d4598753fefee584a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9e6102ac2ec38b992eda87890f7efb6a') in 0.030637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.399691 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Data/vg-grasps-userstudy.db
+  artifactKey: Guid(c36c41db921f955469a104629441b4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Data/vg-grasps-userstudy.db using Guid(c36c41db921f955469a104629441b4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '18813e1af01bd2fdb65ea0c47e7b9e16') in 0.004452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.559046 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Materials/M_Blue.mat
+  artifactKey: Guid(d8f56beb1d97e0a479b5d4e30df47ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Materials/M_Blue.mat using Guid(d8f56beb1d97e0a479b5d4e30df47ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6a56820c6cd18fd1a503882bda6b5b8c') in 0.033177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.721407 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Meshes/SM_banana.fbx
+  artifactKey: Guid(32e6522eef510774682b5cdaa202fb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Meshes/SM_banana.fbx using Guid(32e6522eef510774682b5cdaa202fb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4ea747c3f28cbe3b5aef55ec050fe10f') in 0.043263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.188331 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Scripts/Gleechi.VirtualGrasp.Tests.asmdef
+  artifactKey: Guid(ab735892393279744a02c40d87e815a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Scripts/Gleechi.VirtualGrasp.Tests.asmdef using Guid(ab735892393279744a02c40d87e815a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7b47251a3e6e3a96568e15987c292d65') in 0.000507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.726383 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/1_ProjectSetup/0-ContentSummary.asset
+  artifactKey: Guid(e74f3ba5ac27fce4b99f9189d3c2a71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/1_ProjectSetup/0-ContentSummary.asset using Guid(e74f3ba5ac27fce4b99f9189d3c2a71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd64854e8e504cee157c887d645f91d73') in 0.001159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001395 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/1_ProjectSetup/5_ConfigureController.asset
+  artifactKey: Guid(afc964f2c34b0f842942e697de78af1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/1_ProjectSetup/5_ConfigureController.asset using Guid(afc964f2c34b0f842942e697de78af1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4971d8a068baed401571088f44d82c1a') in 0.001181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.866018 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/2_ObjectBaking/0-ContentSummary.asset
+  artifactKey: Guid(92c91bf83333db34e8b0e90cf9f4f429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/2_ObjectBaking/0-ContentSummary.asset using Guid(92c91bf83333db34e8b0e90cf9f4f429) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7e46a174d0ebbd683ebcb1f6d01af967') in 0.001195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001292 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/2_ObjectBaking/5_PackageZip.asset
+  artifactKey: Guid(d6819944c03f5b7469778387d8caf166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/2_ObjectBaking/5_PackageZip.asset using Guid(d6819944c03f5b7469778387d8caf166) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a112ef9ef584ed4bc0ba4e12d9fa90d1') in 0.000981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/2_ObjectBaking/7_Summary.asset
+  artifactKey: Guid(1daaf6e4fd997c74bb7982dd600b1ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/2_ObjectBaking/7_Summary.asset using Guid(1daaf6e4fd997c74bb7982dd600b1ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3a49e8be7a76e56202b3acc15d6fda02') in 0.001128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.894253 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/3_FingerTracking/0-ContentSummary.asset
+  artifactKey: Guid(bfa52384c8bb23741a3239733e4451d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/3_FingerTracking/0-ContentSummary.asset using Guid(bfa52384c8bb23741a3239733e4451d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '48c9c5ba277c75028713c2cff17e9c47') in 0.001181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.594226 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/Resources/T_vg.png
+  artifactKey: Guid(51545fe43b3fed04f9fd8fb0925b1945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/Resources/T_vg.png using Guid(51545fe43b3fed04f9fd8fb0925b1945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '89d6a950665ceb28f0aca47623253a71') in 0.017204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.626814 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/Settings.asset
+  artifactKey: Guid(4c2fe6cea49890045bebc7f5472b72fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tutorials/Settings.asset using Guid(4c2fe6cea49890045bebc7f5472b72fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5502bf454030b396393dc885d06afbff') in 0.001647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.420 seconds
+Refreshing native plugins compatible for Editor in 3.83 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.932 seconds
+Domain Reload Profiling: 1348ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (932ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (373ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 9.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (33.4 KB). Loaded Objects now: 3736.
+Memory consumption went from 203.5 MB to 203.5 MB.
+Total: 3.985600 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.108600 ms MarkObjects: 3.504800 ms  DeleteObjects: 0.094400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29.675575 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/apple.prefab
+  artifactKey: Guid(d1419e7de3ffa0a47852721865c7928c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/apple.prefab using Guid(d1419e7de3ffa0a47852721865c7928c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '319bdf06eb8258c2e983fab08b29b690') in 0.058804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_ab_floating_prismatic.prefab
+  artifactKey: Guid(4265406b628766a459d9d34ff44d0754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_ab_floating_prismatic.prefab using Guid(4265406b628766a459d9d34ff44d0754) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f4ed384a510bb21e4e5d38298493155d') in 0.036029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 1.103930 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_ab_prismatic.prefab
+  artifactKey: Guid(906b0838cb89d7d4ca87903e60876f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_ab_prismatic.prefab using Guid(906b0838cb89d7d4ca87903e60876f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '077979bd78d29abc6712abe838d4683b') in 0.014148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.023670 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_ab_revolute_cube_root.prefab
+  artifactKey: Guid(e95213c0cd4639c46876b4404d85ce5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_ab_revolute_cube_root.prefab using Guid(e95213c0cd4639c46876b4404d85ce5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '68c65dc368fe1f984a4237b28ecf78d3') in 0.016521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.039036 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_vg_floating_empty_revolute.prefab
+  artifactKey: Guid(6e63d7937b074e143a5cafe3781c418a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_vg_floating_empty_revolute.prefab using Guid(6e63d7937b074e143a5cafe3781c418a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ee782ff2a840e9d65d2ee85f2e16e825') in 0.015203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.421291 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_vg_floating_prismatic_free.prefab
+  artifactKey: Guid(7b21036722af8de42a5e844fcd59d3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_vg_floating_prismatic_free.prefab using Guid(7b21036722af8de42a5e844fcd59d3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cadcd08c12e5ebfb7a94fcbd62fafd68') in 0.006665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.010680 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_vg_floating_revolute_free.prefab
+  artifactKey: Guid(2ce130f98a971c64a906a6547983516f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_vg_floating_revolute_free.prefab using Guid(2ce130f98a971c64a906a6547983516f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '81d703e16414a6f7fe26a6ecd1f5ec6e') in 0.006669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.015966 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_vg_prismatic.prefab
+  artifactKey: Guid(5d305b5fa7f5d7d40a74e556ee9d01c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_vg_prismatic.prefab using Guid(5d305b5fa7f5d7d40a74e556ee9d01c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '99311f4b6cba4fcec2b43827c93b93f8') in 0.017103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.015057 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_vg_revolute_multichain_3level.prefab
+  artifactKey: Guid(0b99a8307c9956d4d94ac7b6652807f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Off_pivot_vg_revolute_multichain_3level.prefab using Guid(0b99a8307c9956d4d94ac7b6652807f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4981bb26428ee995c806eab2dfc668b1') in 0.013503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 1.200738 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/ReplayBaseLine.prefab
+  artifactKey: Guid(c5789d839011f4d42b4533ad4c4cc022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/ReplayBaseLine.prefab using Guid(c5789d839011f4d42b4533ad4c4cc022) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '90d1d5f6b954442c60bf09bb69a25a02') in 0.049208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 232
+========================================================================
+Received Import Request.
+  Time since last request: 0.026586 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/RuntimeInputTestChainRootRigidbodyIskinematic.prefab
+  artifactKey: Guid(cd1e590a859f92f4cb72a879e5783cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/RuntimeInputTestChainRootRigidbodyIskinematic.prefab using Guid(cd1e590a859f92f4cb72a879e5783cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'dd74ead6c74c1507ddaea30705cbc0ee') in 0.106407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 267
+========================================================================
+Received Import Request.
+  Time since last request: 4.260356 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/ScrewdriverAssemble.prefab
+  artifactKey: Guid(5d20f28ab07a8db4597673542116a9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/ScrewdriverAssemble.prefab using Guid(5d20f28ab07a8db4597673542116a9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a01b870c61a6a1128f773647bdc99138') in 0.013310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 194
+========================================================================
+Received Import Request.
+  Time since last request: 0.370746 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/SingleObjectSetup.prefab
+  artifactKey: Guid(26b10c91466aa744daaa15b3849c0c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/SingleObjectSetup.prefab using Guid(26b10c91466aa744daaa15b3849c0c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '32fab0babd8be0b8a90212bc1480ed80') in 0.015437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.066970 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/StickyHandGraspPhysicalObject.prefab
+  artifactKey: Guid(22ac7ee26dee22b4484b7c01b5f6b0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/StickyHandGraspPhysicalObject.prefab using Guid(22ac7ee26dee22b4484b7c01b5f6b0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6fa60d9592d09e84be6a82f4dbd69733') in 0.017057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 5.666832 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-vg-revolute-dual-hand.sdb
+  artifactKey: Guid(974bcb265c1c7c748a0f9fbe11d07025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-vg-revolute-dual-hand.sdb using Guid(974bcb265c1c7c748a0f9fbe11d07025) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f85c5c7eff93331a1fdb45f24e3fa56d') in 0.001337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-vg-revolute-snap.sdb
+  artifactKey: Guid(92255bec52d6d954cb6c3cdcf21190ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-vg-revolute-snap.sdb using Guid(92255bec52d6d954cb6c3cdcf21190ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1e2f68cd26fe02a8af144ae0805ceeea') in 0.001201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.550844 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-vg-prismatic-dual-hand.sdb
+  artifactKey: Guid(9ca4420e1e3df1747be5640f96dca012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-vg-prismatic-dual-hand.sdb using Guid(9ca4420e1e3df1747be5640f96dca012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3b7bbec4ef3c4bb362c9f0ddde344aea') in 0.001294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.021885 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-vg-multi-revolute-snap.sdb
+  artifactKey: Guid(2a4b4d5459c095d48ae2f7ce8180d35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-vg-multi-revolute-snap.sdb using Guid(2a4b4d5459c095d48ae2f7ce8180d35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '76cc5d6e4789e39198b533d247a736e2') in 0.001463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.036833 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-switch-object.sdb
+  artifactKey: Guid(10938394beddcb94cb4254378a119434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-switch-object.sdb using Guid(10938394beddcb94cb4254378a119434) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '434167651edef8c6d259a142a8b393e5') in 0.002651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.415978 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-set-object-joint-state.sdb
+  artifactKey: Guid(133569cc622fe444e88167960e6826c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-set-object-joint-state.sdb using Guid(133569cc622fe444e88167960e6826c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '22a14ad937a331f5d71eec754efade8e') in 0.001771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.022804 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-push-button.sdb
+  artifactKey: Guid(a356b84787be2f14c802925a3d9337e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-push-button.sdb using Guid(a356b84787be2f14c802925a3d9337e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3149790fecc517a07fa4ee13ff780e66') in 0.001359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.038958 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-planar-switch.sdb
+  artifactKey: Guid(4967561ac2439a0459803f62461c77aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-planar-switch.sdb using Guid(4967561ac2439a0459803f62461c77aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f2775fd8a4b413c4c9b71cab7e70402c') in 0.001090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.036823 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-pick-and-place.sdb
+  artifactKey: Guid(adee590753392d14e9dbce90659fa9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-pick-and-place.sdb using Guid(adee590753392d14e9dbce90659fa9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8ec0d1024cace9e0ee33a638a659411f') in 0.001718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.267449 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-floating-revolute-free.sdb
+  artifactKey: Guid(236fe3cbcaf92f640b207dff6885beaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-floating-revolute-free.sdb using Guid(236fe3cbcaf92f640b207dff6885beaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c1a4d47f4b1b6c80710fba7611e912aa') in 0.002167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.019267 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-floating-prismatic.sdb
+  artifactKey: Guid(cc57624ff391f5b408acbeed2497b379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-floating-prismatic.sdb using Guid(cc57624ff391f5b408acbeed2497b379) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6667886a8a73cbf7eea5038b4a2e4c4a') in 0.001543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.021760 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-change-object-joint.sdb
+  artifactKey: Guid(5133cdf8c19164749b5c8138055f23c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-change-object-joint.sdb using Guid(5133cdf8c19164749b5c8138055f23c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '46c608deaa64f8d29487d20adbb31591') in 0.001019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.029176 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-button-indexpush-with-physical-base.sdb
+  artifactKey: Guid(31341da9ec706b24e88d518010fa9349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-button-indexpush-with-physical-base.sdb using Guid(31341da9ec706b24e88d518010fa9349) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '487243ca01c88a6dc88982c5962eab11') in 0.001800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.259781 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-ab-prismatic.sdb
+  artifactKey: Guid(21bcbcc1ec748e44db8cf7f3b5ce0bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Tests/Resources/Testing/Recordings/test-ab-prismatic.sdb using Guid(21bcbcc1ec748e44db8cf7f3b5ce0bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b992cdde66454c85beba26cf2c5f032f') in 0.001716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.412 seconds
+Refreshing native plugins compatible for Editor in 4.54 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.924 seconds
+Domain Reload Profiling: 1333ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (925ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (361ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 7.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (36.0 KB). Loaded Objects now: 3737.
+Memory consumption went from 205.1 MB to 205.1 MB.
+Total: 4.288600 ms (FindLiveObjects: 0.257200 ms CreateObjectMapping: 0.159300 ms MarkObjects: 3.788800 ms  DeleteObjects: 0.082000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.415 seconds
+Refreshing native plugins compatible for Editor in 4.35 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.034 seconds
+Domain Reload Profiling: 1446ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (263ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1035ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (453ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 10.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (36.0 KB). Loaded Objects now: 3732.
+Memory consumption went from 205.0 MB to 204.9 MB.
+Total: 5.770400 ms (FindLiveObjects: 0.369100 ms CreateObjectMapping: 0.221000 ms MarkObjects: 5.068100 ms  DeleteObjects: 0.110300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.682947 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Scenes/VG_Onboarding/ReflectionProbe-1.exr
+  artifactKey: Guid(a0889990ed7a8f1448346aa6d632a842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Scenes/VG_Onboarding/ReflectionProbe-1.exr using Guid(a0889990ed7a8f1448346aa6d632a842) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '78d21768c0fceeb7004ee28a59610125') in 0.148032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.799653 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/apple.prefab
+  artifactKey: Guid(ea65f85e90f7e5945905e87c4fa1a285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/apple.prefab using Guid(ea65f85e90f7e5945905e87c4fa1a285) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd6d2a1aa46ad4532aed2858455e22870') in 0.000797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/bottle_assemble_vgarticulation_physical.prefab
+  artifactKey: Guid(7a2fd9a4f7a25c949b2d38154f0b288a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/bottle_assemble_vgarticulation_physical.prefab using Guid(7a2fd9a4f7a25c949b2d38154f0b288a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'da07e4f25d14da55dcbdf50d8042b342') in 0.000816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/chainloop.prefab
+  artifactKey: Guid(c4c655d8e238d314c87f627ec537396b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/chainloop.prefab using Guid(c4c655d8e238d314c87f627ec537396b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3540bf1786d85b892eba930804713d79') in 0.000378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/chain_assemble_vgarticulation_physical.prefab
+  artifactKey: Guid(174ba87942c517b4497b11b5f1e7f8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/chain_assemble_vgarticulation_physical.prefab using Guid(174ba87942c517b4497b11b5f1e7f8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'dd89aebf8e8827fd38af0f8b7d945157') in 0.000358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.903594 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/FactoryEnvironment.prefab
+  artifactKey: Guid(d7dfb1fd8c1d38a47bc9490470d37aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/FactoryEnvironment.prefab using Guid(d7dfb1fd8c1d38a47bc9490470d37aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3cc4c5ad3b455e50cc723b27c335c885') in 0.026870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.039307 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/plate_container.prefab
+  artifactKey: Guid(5788b7c517094b346ad8dffd479e47f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/plate_container.prefab using Guid(5788b7c517094b346ad8dffd479e47f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '94031a79e2525c53bbb4442f2b64fc7e') in 0.016898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.708925 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/radio_assemble.prefab
+  artifactKey: Guid(843e6c9affc91bf45b82359148ad013a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/radio_assemble.prefab using Guid(843e6c9affc91bf45b82359148ad013a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '564b5e75d6c81545f18dcfa502b28d66') in 0.021767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 0.034077 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/screw_jumpgrasp.prefab
+  artifactKey: Guid(99d0edc7731886b438574f18ebe9925c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/screw_jumpgrasp.prefab using Guid(99d0edc7731886b438574f18ebe9925c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1ad0410547a52c256c0c434eb704cad7') in 0.020558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 6.831218 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/screwdriver.prefab
+  artifactKey: Guid(6ca0d5211fc7945499c9fc95c78c7319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/screwdriver.prefab using Guid(6ca0d5211fc7945499c9fc95c78c7319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '385efcfb2c4c115669614a912f2d2176') in 0.021618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/symmetric_assembles.prefab
+  artifactKey: Guid(29ad25dea6af14249a6e8ff885eca9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/symmetric_assembles.prefab using Guid(29ad25dea6af14249a6e8ff885eca9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bf4d1f7ce45d5e89278aad945ea5455c') in 0.018651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 158
+========================================================================
+Received Import Request.
+  Time since last request: 0.173709 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/valve_assemble_articulationbody.prefab
+  artifactKey: Guid(674378d7d3425104eb78fa3dea16ae3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/valve_assemble_articulationbody.prefab using Guid(674378d7d3425104eb78fa3dea16ae3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '66a01b258d6ef23dfb3dfea83316c9c2') in 0.019459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 26.137933 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Editor/Resources/T_gleechi.png
+  artifactKey: Guid(ed1503e08c4aa084b95a1668189b994a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Editor/Resources/T_gleechi.png using Guid(ed1503e08c4aa084b95a1668189b994a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0a9ddc08bca285ac05420709830c1ba8') in 0.018397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.074184 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Editor/Build/Gleechi.VirtualGrasp.Build.asmdef
+  artifactKey: Guid(6e5d94eb017cf544190f4e182b71c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Editor/Build/Gleechi.VirtualGrasp.Build.asmdef using Guid(6e5d94eb017cf544190f4e182b71c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b1b9b5d454d8ab4f2b35088d1db95a9f') in 0.000618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.833276 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Editor/VirtualGrasp/Gleechi.VirtualGrasp.Editor.asmdef
+  artifactKey: Guid(fc18289a8cd01604588249d45e0e1af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Editor/VirtualGrasp/Gleechi.VirtualGrasp.Editor.asmdef using Guid(fc18289a8cd01604588249d45e0e1af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f98d35e51990be4a8dd21fca457005dc') in 0.000549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.406 seconds
+Refreshing native plugins compatible for Editor in 4.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.879 seconds
+Domain Reload Profiling: 1282ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (879ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 8.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3167 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (32.3 KB). Loaded Objects now: 3737.
+Memory consumption went from 205.0 MB to 204.9 MB.
+Total: 4.065500 ms (FindLiveObjects: 0.267400 ms CreateObjectMapping: 0.117900 ms MarkObjects: 3.607100 ms  DeleteObjects: 0.071300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33.033237 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_Utility.asset
+  artifactKey: Guid(86692bddfead6264bafbcb02fb06b186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_Utility.asset using Guid(86692bddfead6264bafbcb02fb06b186) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '033d82db7f76d2de48061672ddcd7cf9') in 0.011957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.921609 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/GraspEditor/M_Gleechi_Diffuse.mat
+  artifactKey: Guid(e6972ea872487f4458a41354cfebc675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/GraspEditor/M_Gleechi_Diffuse.mat using Guid(e6972ea872487f4458a41354cfebc675) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7c5a4682afc1f2578c09978a39f5862c') in 0.055184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/GraspEditor/T_GraspEditor.png
+  artifactKey: Guid(2c3cd382edf02cb47a08d90dc06c0633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/GraspEditor/T_GraspEditor.png using Guid(2c3cd382edf02cb47a08d90dc06c0633) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b4ebbf297b097fb806885340088a4802') in 0.021364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/GraspEditor/VG_GraspEditor.prefab
+  artifactKey: Guid(a3c88c7dcb9b7b74493f075e358b71ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/GraspEditor/VG_GraspEditor.prefab using Guid(a3c88c7dcb9b7b74493f075e358b71ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cf2356120e19df89bb53c684b21b97de') in 0.039341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 153
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/GraspEditor/SM_recMagnet.fbx
+  artifactKey: Guid(37e15f555c30e214d82f919979a1e4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/GraspEditor/SM_recMagnet.fbx using Guid(37e15f555c30e214d82f919979a1e4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '148ae7d11a686abca49e9cec21c1adaf') in 0.048599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.475763 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/SensorAndReplayAvatars.prefab
+  artifactKey: Guid(6ffe5c22c41287d4bbede58c85e24ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/SensorAndReplayAvatars.prefab using Guid(6ffe5c22c41287d4bbede58c85e24ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '722dd5117c50d7edec25f3bebf9436a6') in 0.026282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 460
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/SensorAvatarLeap.prefab
+  artifactKey: Guid(e58b8ac74e2175a419f1a0f17f791fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/SensorAvatarLeap.prefab using Guid(e58b8ac74e2175a419f1a0f17f791fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '67e31ad8765a2f9a1ddc4c1c333c8e79') in 0.021432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 356
+========================================================================
+Received Import Request.
+  Time since last request: 7.126854 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_ControllerProfiles/VG_CP_Common.Generic.asset
+  artifactKey: Guid(c553d56784e76cc4d905744f5699f8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_ControllerProfiles/VG_CP_Common.Generic.asset using Guid(c553d56784e76cc4d905744f5699f8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '05a089f547965a8a6b2d0bbee6a87b1a') in 0.001175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_ControllerProfiles/VG_CP_Gleechi.Remote.asset
+  artifactKey: Guid(a5789b8e9e8080d4997ef7ea2af47b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_ControllerProfiles/VG_CP_Gleechi.Remote.asset using Guid(a5789b8e9e8080d4997ef7ea2af47b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a5ece3dbe48dd0521f534965b0c6e64a') in 0.000762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_ControllerProfiles/VG_CP_Manus.HandTracking.asset
+  artifactKey: Guid(b1344dc49ba92844184299f4c8a5762a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_ControllerProfiles/VG_CP_Manus.HandTracking.asset using Guid(b1344dc49ba92844184299f4c8a5762a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '643ad2ce4f413cbe23aab653ba5763f5') in 0.000692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001202 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_ControllerProfiles/VG_CP_Oculus.OVRLib.HandTracking.asset
+  artifactKey: Guid(9b469b2901cb13d4ea79de0becbc377a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_ControllerProfiles/VG_CP_Oculus.OVRLib.HandTracking.asset using Guid(9b469b2901cb13d4ea79de0becbc377a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f40fbe68c670d8480094e9442b2ab864') in 0.000720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_ControllerProfiles/VG_CP_UltraLeap.HandTracking.asset
+  artifactKey: Guid(081769b4a6dc16849a99dd7eba116595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_ControllerProfiles/VG_CP_UltraLeap.HandTracking.asset using Guid(081769b4a6dc16849a99dd7eba116595) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e5d6ed88519a93117af8260604a6d455') in 0.000665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_ControllerProfiles/VG_CP_Unity.XRHands.asset
+  artifactKey: Guid(fb3543c96faa43e4ab47c137ad080c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_ControllerProfiles/VG_CP_Unity.XRHands.asset using Guid(fb3543c96faa43e4ab47c137ad080c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1f8bfcf940eed3bd07c34cca2b2cfdb8') in 0.000654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_ControllerProfiles/VG_CP_Unity.XRInteraction.asset
+  artifactKey: Guid(b82d47d5c4b6e814bac122f20e1629c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_ControllerProfiles/VG_CP_Unity.XRInteraction.asset using Guid(b82d47d5c4b6e814bac122f20e1629c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3d7ad10ae7e2df22d1bda428a26a3b4e') in 0.000675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.326886 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_HandProfiles/VG_HP_GleechiHands.asset
+  artifactKey: Guid(6c2f17270e919474192e591136ea095a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_HandProfiles/VG_HP_GleechiHands.asset using Guid(6c2f17270e919474192e591136ea095a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c91cd511d0fce482ef805caf24fbd2c0') in 0.001190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_HandProfiles/VG_HP_MixamoAvatar.asset
+  artifactKey: Guid(a4cba04718ad1414ba67a9927ac0dfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_HandProfiles/VG_HP_MixamoAvatar.asset using Guid(a4cba04718ad1414ba67a9927ac0dfa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7a18c21e17055063005cac258715a898') in 0.000725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000816 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_HandProfiles/VG_HP_OculusSingleHand.asset
+  artifactKey: Guid(b93bb66a6a2bf0243bc22dfa948d1891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/VG_HandProfiles/VG_HP_OculusSingleHand.asset using Guid(b93bb66a6a2bf0243bc22dfa948d1891) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3113d1938a2e101404ef0037bcb5d754') in 0.000976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.354760 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Scripts/Gleechi.VirtualGrasp.Runtime.asmdef
+  artifactKey: Guid(e1a114fd017cd6f489cc0e96ca379cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Scripts/Gleechi.VirtualGrasp.Runtime.asmdef using Guid(e1a114fd017cd6f489cc0e96ca379cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6ee7969a40b43cee99b0878df89cdea7') in 0.000527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.524 seconds
+Refreshing native plugins compatible for Editor in 4.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.961 seconds
+Domain Reload Profiling: 1482ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (302ms)
+		LoadAssemblies (305ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (76ms)
+			TypeCache.Refresh (59ms)
+				TypeCache.ScanAssembly (48ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (961ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (408ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 7.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (45.3 KB). Loaded Objects now: 3696.
+Memory consumption went from 204.7 MB to 204.7 MB.
+Total: 5.709900 ms (FindLiveObjects: 0.329200 ms CreateObjectMapping: 0.152400 ms MarkObjects: 5.094300 ms  DeleteObjects: 0.132000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.005156 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Materials/M_Gleechi_AlphaBlend.mat
+  artifactKey: Guid(70a558c09b9cf8446a4b808b10075192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Materials/M_Gleechi_AlphaBlend.mat using Guid(70a558c09b9cf8446a4b808b10075192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e1e9d9e29fae2ac0fb50074337d29e90') in 0.055871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Materials/M_Gleechi_factoryB.mat
+  artifactKey: Guid(9c1411341be3b5e4facd8938bc9b64ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Materials/M_Gleechi_factoryB.mat using Guid(9c1411341be3b5e4facd8938bc9b64ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0e427faa2758a2a9f99265c02fffa0cd') in 0.006678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Materials/M_Gleechi_Target.mat
+  artifactKey: Guid(701b62c8ce4961242adc063b24d3933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Materials/M_Gleechi_Target.mat using Guid(701b62c8ce4961242adc063b24d3933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5b9c5c7d8f57d1dd91d95dfc371c447a') in 0.019420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.336157 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Meshes/SM_apple.fbx
+  artifactKey: Guid(e9ad78e229a008a498cd19295ad6afee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Meshes/SM_apple.fbx using Guid(e9ad78e229a008a498cd19295ad6afee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9ca67e11038879169511da5e9f7022e0') in 0.057123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Meshes/SM_Screw_SeatDetails.fbx
+  artifactKey: Guid(bb35c929751dc6849a20897e8509a1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Meshes/SM_Screw_SeatDetails.fbx using Guid(bb35c929751dc6849a20897e8509a1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '998266e044dbdb51fbff769c4cce95f7') in 0.029803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Meshes/SM_Screw_Seat.fbx
+  artifactKey: Guid(126bdac3ffdd7ed44b55b5973c1e2abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Meshes/SM_Screw_Seat.fbx using Guid(126bdac3ffdd7ed44b55b5973c1e2abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bb74197eabb48a30a15c5c4ad0adf018') in 0.023821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Meshes/SM_Pilers.fbx
+  artifactKey: Guid(05657d186b0de4c4e8e789fae653ad55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Meshes/SM_Pilers.fbx using Guid(05657d186b0de4c4e8e789fae653ad55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b1de48e43c0b4f76d962e05920b6cb15') in 0.041911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.007413 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Meshes/SM_Screwdriver.fbx
+  artifactKey: Guid(188ecdc71ca374b45a879af2900f02f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Meshes/SM_Screwdriver.fbx using Guid(188ecdc71ca374b45a879af2900f02f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3877e93c0bd71f2aabd8f97e008e5f9d') in 0.024870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.826159 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Meshes/SM_Valve.fbx
+  artifactKey: Guid(e802fdffbc3c0754b81e7b347513dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Meshes/SM_Valve.fbx using Guid(e802fdffbc3c0754b81e7b347513dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '01767c6774e5ff97c3d87ae698f32fe9') in 0.023916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.723317 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/apple.prefab
+  artifactKey: Guid(ea65f85e90f7e5945905e87c4fa1a285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/apple.prefab using Guid(ea65f85e90f7e5945905e87c4fa1a285) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a3173c1844c4c0a6f74240bf69cd1ba6') in 0.020160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/pliers_animate_manipulation.prefab
+  artifactKey: Guid(9ee9fe4280113eb43a777fba595a8e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/pliers_animate_manipulation.prefab using Guid(9ee9fe4280113eb43a777fba595a8e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5a5b1dd6f5d926dab4dc4be7c3e12e85') in 0.023085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/chain_assemble_vgarticulation_physical.prefab
+  artifactKey: Guid(174ba87942c517b4497b11b5f1e7f8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/chain_assemble_vgarticulation_physical.prefab using Guid(174ba87942c517b4497b11b5f1e7f8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bc3a8ee8816ba63f67ab7b6ac3d875c3') in 0.027326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 142
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/chainloop_assemble.prefab
+  artifactKey: Guid(ff5f927d74d1cb243a5e40114f628f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/chainloop_assemble.prefab using Guid(ff5f927d74d1cb243a5e40114f628f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '844fa4bd6196c04081e656ceb93661b5') in 0.027229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/plate_container.prefab
+  artifactKey: Guid(5788b7c517094b346ad8dffd479e47f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/plate_container.prefab using Guid(5788b7c517094b346ad8dffd479e47f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '37256db49bc6d9c5d196046ac6ce54e8') in 0.024591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.809549 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/screwdriver.prefab
+  artifactKey: Guid(6ca0d5211fc7945499c9fc95c78c7319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/screwdriver.prefab using Guid(6ca0d5211fc7945499c9fc95c78c7319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '176e8abf4c20132a4320f34add642a19') in 0.018247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/symmetric_assemble_curvedbar.prefab
+  artifactKey: Guid(03023724fbfb9bf4db4b0272eb1dbe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/symmetric_assemble_curvedbar.prefab using Guid(03023724fbfb9bf4db4b0272eb1dbe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a53e6c586d9f52559e2baf0aa486a14a') in 0.008512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.004043 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/valve_assemble_articulationbody.prefab
+  artifactKey: Guid(674378d7d3425104eb78fa3dea16ae3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/valve_assemble_articulationbody.prefab using Guid(674378d7d3425104eb78fa3dea16ae3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1ccd455b63cd7670d071fd4e304e56f6') in 0.019541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.039343 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/wrench_jumpgrasp.prefab
+  artifactKey: Guid(0cee5de410258cc4a82648d911f7eabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Samples/Onboarding/Prefabs/wrench_jumpgrasp.prefab using Guid(0cee5de410258cc4a82648d911f7eabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'edd2c2eaaba412bc0b64732ea849c53f') in 0.008576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 8.057025 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/SensorAndReplayAvatars.prefab
+  artifactKey: Guid(6ffe5c22c41287d4bbede58c85e24ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/SensorAndReplayAvatars.prefab using Guid(6ffe5c22c41287d4bbede58c85e24ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0632618e7eb9a11b0deb9585de2b22a1') in 0.018532 seconds
+Number of updated asset objects reloaded before import = 5
+Number of asset objects unloaded after import = 457
+========================================================================
+Received Import Request.
+  Time since last request: 8.610213 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab
+  artifactKey: Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab using Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cbbce34230821bf622bdccf133ea734d') in 0.016079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 217
+========================================================================
+Received Import Request.
+  Time since last request: 178.083756 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab
+  artifactKey: Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab using Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '478b3499394f0bca9e88c543caf3dc40') in 0.010323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Import Request.
+  Time since last request: 4.555299 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab
+  artifactKey: Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab using Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3f1fe6392cbeb857249425560fdb06c2') in 0.014723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Import Request.
+  Time since last request: 2.998840 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab
+  artifactKey: Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab using Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cb61f6529b3f4ff46b318a4df29399f1') in 0.017618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Import Request.
+  Time since last request: 3.906976 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab
+  artifactKey: Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab using Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '08ad106f1d57165e119df1a7a83eb2e3') in 0.015691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 55.970407 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab
+  artifactKey: Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab using Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0f0fa2e48f623ede6bd839f4e462e454') in 0.015378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 3.548301 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab
+  artifactKey: Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab using Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fd2a7438e0ff64e3d1d34d97072e95ed') in 0.008386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 7.093494 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab
+  artifactKey: Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab using Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ffddba1d355395b128792422e45e6804') in 0.014004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 2.791631 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab
+  artifactKey: Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab using Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cbbe249532eac4e2e77e488e55a4a784') in 0.008039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 698.629488 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab
+  artifactKey: Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab using Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '70db3f031c6e3ccd116406531c4df2a3') in 0.009546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 5.135908 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab
+  artifactKey: Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab using Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a812062298f8abfe0a6046cb6195563c') in 0.017592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 3.143398 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab
+  artifactKey: Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab using Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '66f77a2712c7ec7188617a6acbc12e28') in 0.008607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 2.756041 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab
+  artifactKey: Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab using Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '100b560f7a6c26c73ad52d64ed362ad8') in 0.008649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 2.690306 seconds.
+  path: Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab
+  artifactKey: Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/com.gleechi.unity.virtualgrasp/Runtime/Resources/Prefabs/GleechiRig.prefab using Guid(b40f9ba5e1a259e4584dfe225a05e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '38add3d35f0fc0cdd4aaf122d375e399') in 0.008471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 95
+========================================================================
+Received Import Request.
+  Time since last request: 5728.378587 seconds.
+  path: Assets/HandModelDriver.cs
+  artifactKey: Guid(04e98aa73f18d0e43b7ea631ea9cde93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandModelDriver.cs using Guid(04e98aa73f18d0e43b7ea631ea9cde93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6c06c12ad88ed179906dac4f1b2b36a3') in 0.001406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.336 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.683 seconds
+Domain Reload Profiling: 1017ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (684ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (198ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 6.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (30.9 KB). Loaded Objects now: 3695.
+Memory consumption went from 204.6 MB to 204.6 MB.
+Total: 3.133800 ms (FindLiveObjects: 0.197800 ms CreateObjectMapping: 0.078000 ms MarkObjects: 2.817800 ms  DeleteObjects: 0.039200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.341 seconds
+Refreshing native plugins compatible for Editor in 3.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.643 seconds
+Domain Reload Profiling: 983ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (213ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (644ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (259ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 5.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (30.9 KB). Loaded Objects now: 3698.
+Memory consumption went from 204.6 MB to 204.6 MB.
+Total: 4.543900 ms (FindLiveObjects: 0.356700 ms CreateObjectMapping: 0.124300 ms MarkObjects: 3.994400 ms  DeleteObjects: 0.067100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.391 seconds
+Refreshing native plugins compatible for Editor in 4.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.930 seconds
+Domain Reload Profiling: 1319ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (931ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (397ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.0 KB). Loaded Objects now: 3701.
+Memory consumption went from 204.6 MB to 204.6 MB.
+Total: 3.816600 ms (FindLiveObjects: 0.193700 ms CreateObjectMapping: 0.086000 ms MarkObjects: 3.470800 ms  DeleteObjects: 0.065000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.336 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.745 seconds
+Domain Reload Profiling: 1079ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (208ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (745ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (337ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (234ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 7.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (30.9 KB). Loaded Objects now: 3704.
+Memory consumption went from 204.6 MB to 204.6 MB.
+Total: 4.592100 ms (FindLiveObjects: 0.363100 ms CreateObjectMapping: 0.118500 ms MarkObjects: 4.054500 ms  DeleteObjects: 0.054300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.351 seconds
+Refreshing native plugins compatible for Editor in 3.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.923 seconds
+Domain Reload Profiling: 1273ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (924ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 8.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.0 KB). Loaded Objects now: 3707.
+Memory consumption went from 204.6 MB to 204.6 MB.
+Total: 4.538800 ms (FindLiveObjects: 0.260500 ms CreateObjectMapping: 0.127000 ms MarkObjects: 4.094800 ms  DeleteObjects: 0.054900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.395 seconds
+Refreshing native plugins compatible for Editor in 6.43 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.948 seconds
+Domain Reload Profiling: 1340ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (949ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 8.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.0 KB). Loaded Objects now: 3710.
+Memory consumption went from 204.6 MB to 204.6 MB.
+Total: 3.417100 ms (FindLiveObjects: 0.201900 ms CreateObjectMapping: 0.060100 ms MarkObjects: 3.107200 ms  DeleteObjects: 0.047100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
