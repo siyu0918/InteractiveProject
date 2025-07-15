@@ -1,34 +1,49 @@
 # InteractiveProject
 
-Gesture-Controlled Boid Simulation with Unity and MediaPipe
+**Gesture-Controlled Boid Simulation with Unity and MediaPipe**  
+
 This repository showcases an interactive project that combines machine learning-based gesture recognition with a real-time boid (flocking) simulation in Unity. The project leverages MediaPipe for hand tracking and gesture interpretation, communicating these insights to Unity to dynamically control a flock of birds.
 
-Project Overview
+**Project Overview**  
+
 The core of this project lies in creating a seamless interaction between human hand gestures and a virtual bird flock. Users can manipulate the behavior of the boids using both static and dynamic hand gestures, offering an intuitive and engaging experience.
 
-Key Features:
-Machine Learning-Powered Gesture Recognition: Utilizes a trained machine learning model to accurately identify various static and dynamic hand gestures.
+**Key Features:**  
 
-MediaPipe Integration: Employs MediaPipe for robust and real-time hand tracking, providing precise landmark data.
+Machine Learning-Powered Gesture Recognition:   
+Utilizes a trained machine learning model to accurately identify various static and dynamic hand gestures.
 
-Unity Communication: Establishes a smooth communication pipeline between the gesture recognition system (likely Python) and Unity, enabling real-time control of in-game elements.
+MediaPipe Integration:   
+Employs MediaPipe for robust and real-time hand tracking, providing precise landmark data.
 
-Dynamic Boid Simulation: Implements a realistic boid algorithm (flocking behavior) for the bird movements.
+Unity Communication:   
+Establishes a smooth communication pipeline between the gesture recognition system (likely Python) and Unity, enabling real-time control of in-game elements.
 
-Interactive Attractor: The bird flock's movement is directly influenced by your finger's position, acting as an attractor that the birds follow.
+Dynamic Boid Simulation:   
+Implements a realistic boid algorithm (flocking behavior) for the bird movements.
 
-Gesture-Triggered Effects: Different dynamic gestures trigger distinct boid behaviors:
+Interactive Attractor:   
+The bird flock's movement is directly influenced by your finger's position, acting as an attractor that the birds follow.
 
-Rotational Flock Behavior: Specific dynamic gestures (e.g., clockwise or counter-clockwise movements) cause the flock to gather and rotate in the corresponding direction.
+Gesture-Triggered Effects:   
+Different dynamic gestures trigger distinct boid behaviors:
 
-Click-Triggered Burst: A "click" gesture (e.g., a quick tap) makes the bird flock suddenly gather and then disperse, creating a striking visual effect.
+Rotational Flock Behavior:   
+Specific dynamic gestures (e.g., clockwise or counter-clockwise movements) cause the flock to gather and rotate in the corresponding direction.
 
-How It Works 
-Hand Tracking & Gesture Recognition: MediaPipe tracks the user's hand landmarks in real-time. These landmarks are fed into a pre-trained machine learning model, which classifies the current hand pose as either a static or dynamic gesture.
+Click-Triggered Burst:   
+A "click" gesture (e.g., a quick tap) makes the bird flock suddenly gather and then disperse, creating a striking visual effect.
 
-Data Transmission: The recognized gesture and finger position data are transmitted to the Unity application (e.g., via UDP).
+**How It Works**  
 
-Unity Simulation: In Unity, the received data is used to update the boid simulation:
+Hand Tracking & Gesture Recognition:   
+MediaPipe tracks the user's hand landmarks in real-time. These landmarks are fed into a pre-trained machine learning model, which classifies the current hand pose as either a static or dynamic gesture.
+
+Data Transmission:   
+The recognized gesture and finger position data are transmitted to the Unity application (e.g., via UDP).
+
+Unity Simulation:   
+In Unity, the received data is used to update the boid simulation:
 
 The finger's position dictates the attractor point for the birds.
 
