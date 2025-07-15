@@ -37,7 +37,7 @@ Click-Triggered Burst :
 <br>
 <br>
 
-** How It Works **  
+**How It Works**  
 
 Hand Tracking & Gesture Recognition :   
 - MediaPipe tracks the user's hand landmarks in real-time. These landmarks are fed into a pre-trained machine learning model, which classifies the current hand pose as either a static or dynamic gesture.
