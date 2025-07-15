@@ -7,12 +7,8 @@ This repository showcases an interactive project that combines machine learning-
 **Project Overview**  
 
 The core of this project lies in creating a seamless interaction between human hand gestures and a virtual bird flock. Users can manipulate the behavior of the boids using both static and dynamic hand gestures, offering an intuitive and engaging experience.   
-
-
-
-        
-    
-    
+<br>
+<br>    
 **Key Features:**  
 
 Machine Learning-Powered Gesture Recognition :   
@@ -38,11 +34,8 @@ Rotational Flock Behavior :
 
 Click-Triggered Burst :   
 - A "click" gesture (e.g., a quick tap) makes the bird flock suddenly gather and then disperse, creating a striking visual effect.
-
-  
-   
-   
-   
+<br>
+<br>  
 **How It Works**  
 
 Hand Tracking & Gesture Recognition :   
