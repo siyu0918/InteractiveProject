@@ -10,40 +10,40 @@ The core of this project lies in creating a seamless interaction between human h
 
 **Key Features:**  
 
-Machine Learning-Powered Gesture Recognition:   
-Utilizes a trained machine learning model to accurately identify various static and dynamic hand gestures.
+Machine Learning-Powered Gesture Recognition :   
+- Utilizes a trained machine learning model to accurately identify various static and dynamic hand gestures.
 
-MediaPipe Integration:   
-Employs MediaPipe for robust and real-time hand tracking, providing precise landmark data.
+MediaPipe Integration :   
+- Employs MediaPipe for robust and real-time hand tracking, providing precise landmark data.
 
-Unity Communication:   
-Establishes a smooth communication pipeline between the gesture recognition system (likely Python) and Unity, enabling real-time control of in-game elements.
+Unity Communication :   
+- Establishes a smooth communication pipeline between the gesture recognition system (likely Python) and Unity, enabling real-time control of in-game elements.
 
-Dynamic Boid Simulation:   
-Implements a realistic boid algorithm (flocking behavior) for the bird movements.
+Dynamic Boid Simulation :   
+- Implements a realistic boid algorithm (flocking behavior) for the bird movements.
 
-Interactive Attractor:   
-The bird flock's movement is directly influenced by your finger's position, acting as an attractor that the birds follow.
+Interactive Attractor :   
+- The bird flock's movement is directly influenced by your finger's position, acting as an attractor that the birds follow.
 
-Gesture-Triggered Effects:   
-Different dynamic gestures trigger distinct boid behaviors:
+Gesture-Triggered Effects :   
+- Different dynamic gestures trigger distinct boid behaviors:
 
-Rotational Flock Behavior:   
-Specific dynamic gestures (e.g., clockwise or counter-clockwise movements) cause the flock to gather and rotate in the corresponding direction.
+Rotational Flock Behavior :   
+- Specific dynamic gestures (e.g., clockwise or counter-clockwise movements) cause the flock to gather and rotate in the corresponding direction.
 
-Click-Triggered Burst:   
-A "click" gesture (e.g., a quick tap) makes the bird flock suddenly gather and then disperse, creating a striking visual effect.
+Click-Triggered Burst :   
+- A "click" gesture (e.g., a quick tap) makes the bird flock suddenly gather and then disperse, creating a striking visual effect.
 
 **How It Works**  
 
-Hand Tracking & Gesture Recognition:   
-MediaPipe tracks the user's hand landmarks in real-time. These landmarks are fed into a pre-trained machine learning model, which classifies the current hand pose as either a static or dynamic gesture.
+Hand Tracking & Gesture Recognition :   
+- MediaPipe tracks the user's hand landmarks in real-time. These landmarks are fed into a pre-trained machine learning model, which classifies the current hand pose as either a static or dynamic gesture.
 
-Data Transmission:   
-The recognized gesture and finger position data are transmitted to the Unity application (e.g., via UDP).
+Data Transmission :   
+- The recognized gesture and finger position data are transmitted to the Unity application (e.g., via UDP).
 
-Unity Simulation:   
-In Unity, the received data is used to update the boid simulation:
+Unity Simulation :   
+- In Unity, the received data is used to update the boid simulation:
 
 The finger's position dictates the attractor point for the birds.
 
