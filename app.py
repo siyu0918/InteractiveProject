@@ -15,13 +15,17 @@ from utils import CvFpsCalc
 from model import KeyPointClassifier
 from model import PointHistoryClassifier
 
+import socket
+
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+serverAddressPort = ("127.0.0.1", 5052)
 
 def get_args():
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--device", type=int, default=0)
-    parser.add_argument("--width", help='cap width', type=int, default=960)
-    parser.add_argument("--height", help='cap height', type=int, default=540)
+    parser.add_argument("--width", help='cap width', type=int, default=1920)
+    parser.add_argument("--height", help='cap height', type=int, default=1080)
 
     parser.add_argument('--use_static_image_mode', action='store_true')
     parser.add_argument("--min_detection_confidence",
@@ -130,6 +134,19 @@ def main():
                 # Landmark calculation
                 landmark_list = calc_landmark_list(debug_image, hand_landmarks)
 
+                landmark_points_3d = []
+                image_width, image_height = image.shape[1], image.shape[0]
+                for lm in hand_landmarks.landmark:
+                    # 将 Mediapipe 的归一化坐标转换为像素坐标
+                    lm_x = int(lm.x * image_width)
+                    lm_y = int(lm.y * image_height)
+                    lm_z = lm.z # Z 坐标是归一化的，通常是相对于手腕的深度
+
+                    # 将 Y 坐标反转以匹配 Unity 的通常习惯（Unity的屏幕Y轴向上，Mediapipe可能向下）
+                    # 同时将坐标缩放到一个合适的范围，例如 0-1000，或者直接发送原始像素值和归一化Z
+                    # 考虑到 Unity 脚本中 `/100` 的操作，这里发送像素坐标，Z 保持归一化
+                    landmark_points_3d.extend([lm_x, image_height - lm_y, lm_z]) # 将Y坐标翻转
+
                 # Conversion to relative coordinates / normalized coordinates
                 pre_processed_landmark_list = pre_process_landmark(
                     landmark_list)
@@ -157,6 +174,16 @@ def main():
                 finger_gesture_history.append(finger_gesture_id)
                 most_common_fg_id = Counter(
                     finger_gesture_history).most_common()
+                
+                # 格式化数据并发送给 Unity
+                # ***只发送动态手势ID***
+                current_dynamic_gesture_id = most_common_fg_id[0][0] if most_common_fg_id else -1
+                data_string = f"{current_dynamic_gesture_id};{','.join(map(str, landmark_points_3d))}"
+                try:
+                    sock.sendto(str.encode(data_string), serverAddressPort)
+                    # print(f"Sent: {data_string[:100]}...") # 调试用
+                except Exception as e:
+                    print(f"Error sending data to Unity: {e}")
 
                 # Drawing part
                 debug_image = draw_bounding_rect(use_brect, debug_image, brect)
@@ -170,6 +197,15 @@ def main():
                 )
         else:
             point_history.append([0, 0])
+            # --- NEW: 如果没有检测到手部，也发送一个信号给 Unity ---
+            default_dynamic_gesture_id_no_hand = -1
+            empty_coords = ",".join(["0.0"] * 63)
+            data_to_send_no_hand = f"{default_dynamic_gesture_id_no_hand};{empty_coords}"
+            try:
+                sock.sendto(str.encode(data_to_send_no_hand), serverAddressPort)
+            except Exception as e:
+                print(f"Error sending no hand data to Unity: {e}")
+            # --- NEW END ---
 
         debug_image = draw_point_history(debug_image, point_history)
         debug_image = draw_info(debug_image, fps, mode, number)
